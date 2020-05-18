@@ -859,7 +859,14 @@ Git repomuza birden fazla uzak sunucu ekleyebiliriz. İlk eklenen uzak sunucu he
 ```
 git remote add uzak-sunucu1 UZAK_SUNUCU_ADRESI
 ```
-Ve uzak-sunucu1 adındaki uzak sunucumuza repomuzu tanımladık. Bu uzak sunucuya dosyalarımızı,commit'lerimizi `push` ederken şu komutu çalıştırabiliriz. `git push uzak-sunucu1 master` Şu manaya gelmektedir: `git push` -> localdeki commit'leri gönder, `uzak-sunucu1` -> uzak sunucu adı / hangi uzak sunucuya gönderileceği, `master` uzak-sunucu1'deki master branch'ine push et. 
+Ve uzak-sunucu1 adındaki uzak sunucumuza repomuzu tanımladık. Bu uzak sunucuya dosyalarımızı,commit'lerimizi `push` ederken şu komutu çalıştırabiliriz. `git push uzak-sunucu1 master` Şu manaya gelmektedir: `git push` -> localdeki commit'leri gönder, `uzak-sunucu1` -> uzak sunucu adı / hangi uzak sunucuya gönderileceği, `master` uzak-sunucu1'deki master branch'ine push et. <br>
+
+Peki eklediğimiz uzak sunucuları nasıl göreceğiz? Bunun için ise `git remote` komutunu kullanmamız yeterlidir.
+```
+git remote
+>>> akkp # açık kaynak kod platformu
+origin # ilk eklediğimiz uzak sunucu (github)
+```
 
 ## GitHub ile devam edelim
 GitHub üzerinden bir repo açtığımızı varsayalım. Ve repo'muzu ilk açtığında bizi böyle bir ekran karşılayacaktır.
