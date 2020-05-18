@@ -30,7 +30,7 @@
     - [Ufak Bir Not](#ufak-bir-not-5)
   - [GitHub ile devam edelim](#github-ile-devam-edelim)
 # Giriş
-  Git kullanımımı daha efektif hale getirebilmek için okumalar yaptım ve aldığım notları derleyerek bu dökümanı 18/05/2020 tarihinde hazırladım. İlk defa `print('Hello World')` yazdığım zamanlar bana Git'i öğrenmemi ve kullanmamı öğütleyen [Yunus Eş Abi](https://github.com/codesignist)'me teşekkür ederim :innocent: 
+  Git kullanımımı daha efektif hale getirebilmek için **okumalar yaptım ve aldığım notları derleyerek** bu dökümanı 18/05/2020 tarihinde hazırladım. İlk defa `print('Hello World')` yazdığım zamanlar bana Git'i öğrenmemi ve kullanmamı öğütleyen [Yunus Eş Abi](https://github.com/codesignist)'me teşekkür ederim :innocent: 
 # Git Nedir?
 Kısaca **Git** bir versiyon kontrol sistemidir diyebiliriz. Bu **açık kaynaklı** dağıtık versiyon kontrol sistemi sayesinde; projelerimizin versiyon kontrol takibini yapabilir, dünya çapında projelere katkıda bulunabilir, kendi projelerimizi dünya ile paylaşabilir ve projelerimizin mobilitesini artırabiliriz. Bu sistem sayesinde, bir projede aynı anda birden fazla kişi ile çalışabilir ve bir dosyada yapılan tüm değişiklikleri görüntüleyebiliriz.
 **Unutmamakta fayda var, Git != GitHub || GitLab**
