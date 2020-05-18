@@ -46,14 +46,14 @@ Kısaca **Git** bir versiyon kontrol sistemidir diyebiliriz. Bu **açık kaynakl
   - Kısaca **Taahhüt** veya **Sözleşme** diyebiliriz. Bir dosyada yaptığımız değişikliklerin kalıcı değişiklikler olduğunun taahhüdünü vermemiz, sözleşmeyi imzalamamız gerekmektedir. Böyle ilgili dosya/dizinde yaptığımız değişiklikler **repository**'mize kaydedilir.
 
 # Kurulum
-[Git](https://git-scm.com/)'in official web sitesi üzerinden kurulum dosyasını indirebiliriz. Eğer ki Linux kullanıcısı isek `apt-get install git` diyerek sistemimize Git'i kurabiliriz.
-- Git versiyon kontrol sisteminin yine Git ile kayıt altına alındığını da belirtmekte fayda var :blush:
+[Git](https://git-scm.com/)'in official web sitesi üzerinden kurulum dosyasını indirebiliriz. Eğer ki Linux kullanıcısı isek (Debian tabanlı dağıtımlar için) `apt-get install git` diyerek sistemimize Git'i kurabiliriz.
+- Git versiyon kontrol sisteminin yine Git ile kontrol edildiğini de belirtmekte fayda var :blush:
 
 
 # Temel Terminal/Komut İstemcisi Bilgisi
 - **Terminal Nasıl Açılır?**
   - **Linux** Dağıtımlar:
-    - **CTRL + ALT + T** tuş kombinasyonu ile Terminal açılabilir. Uygulamalar penceresinden de Terminal'i seçerek açabilirsiniz
+    - **CTRL + ALT + T** tuş kombinasyonu ile Terminal açılabilir (Gnome masaüstünü kullananlar için). Uygulamalar penceresinden de Terminal'i seçerek açabilirsiniz
   - **OS X**:
     - **cmd + space(boşluk)** tuş kombinasyonu ile Spotlight'ı açtıktan sonra **Terminal** yazıp Enter'a basarak açabilirsiniz.
   - **Windows**:
