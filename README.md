@@ -899,3 +899,5 @@ Receiving objects: 100% (17/17), 63.19 KiB | 681.00 KiB/s, done.
 Resolving deltas: 100% (4/4), done.
 ```
 Hayırlı olsun, uzak sunucudaki repo'muzu yerel (local) sistemimize clone'lamış (kopyalamış) olduk.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RT8LFtyilsU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
