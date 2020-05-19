@@ -29,6 +29,7 @@
   - [Push - Pull Nedir?](#push---pull-nedir)
     - [Ufak Bir Not](#ufak-bir-not-5)
   - [GitHub ile devam edelim](#github-ile-devam-edelim)
+  - [Clone Nedir](#clone-nedir)
 # Giriş
   Git kullanımımı daha efektif hale getirebilmek için **okumalar yaptım ve aldığım notları derleyerek** bu dökümanı 18/05/2020 tarihinde hazırladım. İlk defa `print('Hello World')` yazdığım zamanlar bana Git'i öğrenmemi ve kullanmamı öğütleyen [Yunus Eş Abi](https://github.com/codesignist)'me teşekkür ederim :innocent: 
 # Git Nedir?
@@ -882,3 +883,19 @@ git push -u origin master
 `git push -u` -> local'deki commit'leri push et, `origin` -> repoma tanıttığım **origin** isimli sunucuya, `master` -> origin isimli sunucumdaki **master branch**'ine. <br>
 `git remote add SUNUCU_ADI SUNUCU_ADRESI` -> bu komut yapısı ile repo'ya uzak sunucu ekleyebiliriz <br>
 `git push -u SUNUCU_ADI BRANCH_ADI` -> bu komut yapısı ile istediğimiz uzak sunucuda istediğimiz branch'e local commit'leri push edebiliriz.
+
+## Clone Nedir
+![Git Clone](./assets/2.png)
+
+Projelerimizi uzak sunucuya `push` ettikten sonra, bu repoyu o uzak sunucudan herhangi bir başka sisteme çekmek için `git clone repo_adresi` komutunu clone'lamak istediğimiz repo'nun adresini argüman olarak yollayarak kullanabiliriz. Ardından uzak sunucudaki repo'muz yerel (local) sistemimize kopyalanmış olacaktır. Bu işleme **clone** denmektedir. GitHub için **clone** adresine repo'muzun detayına girdikten sonra sağ üst köşeden erişebiliriz. Ardından şu şekilde komutu kullanabiliriz.
+```
+git clone https://github.com/mebaysan/TemelGitElKitabi.git
+>>> Cloning into 'TemelGitElKitabi'...
+remote: Enumerating objects: 17, done.
+remote: Counting objects: 100% (17/17), done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 17 (delta 4), reused 17 (delta 4), pack-reused 0
+Receiving objects: 100% (17/17), 63.19 KiB | 681.00 KiB/s, done.
+Resolving deltas: 100% (4/4), done.
+```
+Hayırlı olsun, uzak sunucudaki repo'muzu yerel (local) sistemimize clone'lamış (kopyalamış) olduk.
