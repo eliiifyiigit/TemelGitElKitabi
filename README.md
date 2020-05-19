@@ -30,6 +30,7 @@
     - [Ufak Bir Not](#ufak-bir-not-5)
   - [GitHub ile devam edelim](#github-ile-devam-edelim)
   - [Clone Nedir](#clone-nedir)
+- [Temel Git ve GitHub Bilgileri İçin Video](#temel-git-ve-github-bilgileri-%c4%b0%c3%a7in-video)
 # Giriş
   Git kullanımımı daha efektif hale getirebilmek için **okumalar yaptım ve aldığım notları derleyerek** bu dökümanı 18/05/2020 tarihinde hazırladım. İlk defa `print('Hello World')` yazdığım zamanlar bana Git'i öğrenmemi ve kullanmamı öğütleyen [Yunus Eş Abi](https://github.com/codesignist)'me teşekkür ederim :innocent: 
 # Git Nedir?
@@ -900,4 +901,5 @@ Resolving deltas: 100% (4/4), done.
 ```
 Hayırlı olsun, uzak sunucudaki repo'muzu yerel (local) sistemimize clone'lamış (kopyalamış) olduk.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RT8LFtyilsU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+# Temel Git ve GitHub Bilgileri İçin Video
+Temel Git ve GitHub Bilgileri İçin Hazırladığım Video'ya [buradan](https://youtu.be/RT8LFtyilsU) erişebilirsiniz. Umarım Faydalı olur.
